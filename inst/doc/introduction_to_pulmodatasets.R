@@ -9,6 +9,13 @@ library(PulmoDataSets)
 library(dplyr)
 library(ggplot2)
 
+## ----PulmoDataSets-datasets,echo = TRUE,message = FALSE,warning = FALSE,results = 'markup'----
+
+
+view_datasets_PulmoDataSets()
+
+
+
 ## ----bronchitis-Cardiff-plot, fig.width=6, fig.height=4.5, out.width="90%"----
 
 # Summary with .groups = "drop" to avoid the message (stored but not printed)

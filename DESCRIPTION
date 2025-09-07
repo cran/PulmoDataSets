@@ -2,7 +2,7 @@ Package: PulmoDataSets
 Type: Package
 Title: A Curated Collection of Pulmonary and Respiratory Disease
         Datasets
-Version: 0.1.0
+Version: 0.2.0
 Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
 Description: Provides a comprehensive and curated collection of datasets related to the lungs, respiratory system, and associated diseases. 
     This package includes epidemiological, clinical, experimental, and simulated datasets on conditions such as lung cancer, asthma, 
@@ -24,13 +24,15 @@ Authors@R:
         given = "Renzo",
         family = "Caceres Rossi",
         role = c("aut", "cre"),
-        email = "arenzocaceresrossi@gmail.com"
+        email = "arenzocaceresrossi@gmail.com",
+        comment = c(ORCID = "0009-0005-0744-854X")
     )
 RoxygenNote: 7.3.2
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2025-05-31 04:23:57 UTC; renzocrossi
-Author: Renzo Caceres Rossi [aut, cre]
+Packaged: 2025-09-06 05:55:51 UTC; Renzo
+Author: Renzo Caceres Rossi [aut, cre] (ORCID:
+    <https://orcid.org/0009-0005-0744-854X>)
 Repository: CRAN
-Date/Publication: 2025-06-03 13:00:09 UTC
+Date/Publication: 2025-09-07 17:30:24 UTC
